@@ -1,0 +1,6 @@
+
+python -m venv .
+source bin/activate
+
+./bin/pip install -r requirements.txt
+python -m minecraft --player <name>:<uuid>
